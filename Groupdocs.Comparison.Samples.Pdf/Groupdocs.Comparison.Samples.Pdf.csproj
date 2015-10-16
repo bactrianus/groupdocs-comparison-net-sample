@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{835C2A60-9D80-410C-B63F-D1C1542FA098}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Groupdocs.Comparison.Samples.Pdf</RootNamespace>
+    <AssemblyName>Groupdocs.Comparison.Samples.Pdf</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Groupdocs.Comparison">
+      <HintPath>..\..\lib\Groupdocs.Comparison.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Comparing.cs" />
+    <Compile Include="ComparisonOfDocumentWithXForms.cs" />
+    <Compile Include="ComparisonUsingSettings.cs" />
+    <Compile Include="ComparisonOfSimpleText.cs" />
+    <Compile Include="ComparisonOfDocumentWithTables.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResultComparingConsistsInsertedAndDeletedPages.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <EmbeddedResource Include="data\filePDF1.pdf" />
+    <EmbeddedResource Include="data\filePDF2.pdf" />
+    <EmbeddedResource Include="data\filePDF3.pdf" />
+    <EmbeddedResource Include="data\filePDF4.pdf" />
+    <EmbeddedResource Include="data\filePDF5.pdf" />
+    <EmbeddedResource Include="data\filePDF6.pdf" />
+    <EmbeddedResource Include="data\filePDF7.pdf" />
+    <EmbeddedResource Include="data\filePDFSourceWithCountPages10.pdf" />
+    <EmbeddedResource Include="data\filePDFSourceWithCountPages20.pdf" />
+    <EmbeddedResource Include="data\filePDFSourceWithCountPages5.pdf" />
+    <EmbeddedResource Include="data\filePDFSourceWithCountPages50.pdf" />
+    <EmbeddedResource Include="data\filePDFTargetWithCountPages10.pdf" />
+    <EmbeddedResource Include="data\filePDFTargetWithCountPages20.pdf" />
+    <EmbeddedResource Include="data\filePDFTargetWithCountPages5.pdf" />
+    <EmbeddedResource Include="data\filePDFTargetWithCountPages50.pdf" />
+    <EmbeddedResource Include="data\filePDFWithTable1.pdf" />
+    <EmbeddedResource Include="data\filePDFWithTable2.pdf" />
+    <EmbeddedResource Include="data\filePDFWithTable3.pdf" />
+    <EmbeddedResource Include="data\filePDFWithTable4.pdf" />
+    <EmbeddedResource Include="data\xForm4.pdf" />
+    <EmbeddedResource Include="data\xForm3.pdf" />
+    <EmbeddedResource Include="data\xForm1.pdf" />
+    <EmbeddedResource Include="data\xForm2.pdf" />
+    <EmbeddedResource Include="data\Source1.pdf" />
+    <EmbeddedResource Include="data\Source2.pdf" />
+    <EmbeddedResource Include="data\Target1.pdf" />
+    <EmbeddedResource Include="data\Target2.pdf" />
+    <EmbeddedResource Include="data\threePages.pdf" />
+    <EmbeddedResource Include="data\twoPages.pdf" />
+    <EmbeddedResource Include="data\SourceWith2PagesFirstIs3.pdf" />
+    <EmbeddedResource Include="data\SourceWith3PagesFirstIs1.pdf" />
+    <EmbeddedResource Include="data\TargetWith2PagesFirstIs3.pdf" />
+    <EmbeddedResource Include="data\TargetWith3PagesFirstIs1.pdf" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

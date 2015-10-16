@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Groupdocs.Comparison.Samples.Cells", "Groupdocs.Comparison.Samples.Cells\Groupdocs.Comparison.Samples.Cells.csproj", "{7A6EC3C8-D003-43DB-AE9B-FEE7CB074680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Groupdocs.Comparison.Samples.Slides", "Groupdocs.Comparison.Samples.Slides\Groupdocs.Comparison.Samples.Slides.csproj", "{2724657B-94FB-4501-9AA4-7CBC96111CFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Groupdocs.Comparison.Samples.Words", "Groupdocs.Comparison.Samples.Words\Groupdocs.Comparison.Samples.Words.csproj", "{36723E98-E429-4E43-BF54-55A4E2EFAFA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Groupdocs.Comparison.Samples.Pdf", "Groupdocs.Comparison.Samples.Pdf\Groupdocs.Comparison.Samples.Pdf.csproj", "{835C2A60-9D80-410C-B63F-D1C1542FA098}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Groupdocs.Comparison.Samples", "Groupdocs.Comparison.Samples\Groupdocs.Comparison.Samples.csproj", "{DE1ABF1C-36C9-4BF6-BF9B-2C0697E3EA19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Groupdocs.Comparison.Samples.Text", "Groupdocs.Comparison.Samples.Text\Groupdocs.Comparison.Samples.Text.csproj", "{A53FA3D6-FA20-4295-B2C7-9B9C26A22C85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A6EC3C8-D003-43DB-AE9B-FEE7CB074680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A6EC3C8-D003-43DB-AE9B-FEE7CB074680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A6EC3C8-D003-43DB-AE9B-FEE7CB074680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A6EC3C8-D003-43DB-AE9B-FEE7CB074680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2724657B-94FB-4501-9AA4-7CBC96111CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2724657B-94FB-4501-9AA4-7CBC96111CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2724657B-94FB-4501-9AA4-7CBC96111CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2724657B-94FB-4501-9AA4-7CBC96111CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36723E98-E429-4E43-BF54-55A4E2EFAFA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36723E98-E429-4E43-BF54-55A4E2EFAFA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36723E98-E429-4E43-BF54-55A4E2EFAFA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36723E98-E429-4E43-BF54-55A4E2EFAFA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{835C2A60-9D80-410C-B63F-D1C1542FA098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{835C2A60-9D80-410C-B63F-D1C1542FA098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{835C2A60-9D80-410C-B63F-D1C1542FA098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{835C2A60-9D80-410C-B63F-D1C1542FA098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE1ABF1C-36C9-4BF6-BF9B-2C0697E3EA19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE1ABF1C-36C9-4BF6-BF9B-2C0697E3EA19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE1ABF1C-36C9-4BF6-BF9B-2C0697E3EA19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE1ABF1C-36C9-4BF6-BF9B-2C0697E3EA19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A53FA3D6-FA20-4295-B2C7-9B9C26A22C85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A53FA3D6-FA20-4295-B2C7-9B9C26A22C85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A53FA3D6-FA20-4295-B2C7-9B9C26A22C85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A53FA3D6-FA20-4295-B2C7-9B9C26A22C85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
