@@ -4,14 +4,14 @@ using System.Reflection;
 using GroupDocs.Comparison.Common;
 using GroupDocs.Comparison.Common.ComparisonSettings;
 
-namespace Groupdocs.Comparison.Samples
+namespace GroupDocs.Comparison.Samples
 {
 	public static class CompareTwoWorkbooks
 	{
 		public static void CompareTwoWorkbooksFromStreamsWithSavingToFileAndSettings()
 		{
-			string sourcePath = @"Groupdocs.Comparison.Samples.data.Cells.source.xlsx";
-			string targetPath = @"Groupdocs.Comparison.Samples.data.Cells.target.xlsx";
+			string sourcePath = @"GroupDocs.Comparison.Samples.data.Cells.source.xlsx";
+			string targetPath = @"GroupDocs.Comparison.Samples.data.Cells.target.xlsx";
 			string resultPath = @"./../../testresult/FromStreamsWithSavingToFileAndSettings/result.xlsx";
 
 			Assembly assembly = Assembly.GetExecutingAssembly();
@@ -28,8 +28,8 @@ namespace Groupdocs.Comparison.Samples
 
 /*        public static void CompareTwoDocumentsFromStreams()
         {
-            string sourcePath = @"Groupdocs.Comparison.Samples.data.Words.source.docx";
-            string targetPath = @"Groupdocs.Comparison.Samples.data.Words.target.docx";
+            string sourcePath = @"GroupDocs.Comparison.Samples.data.Words.source.docx";
+            string targetPath = @"GroupDocs.Comparison.Samples.data.Words.target.docx";
 
             // Create two streams of documents
             Assembly assembly = Assembly.GetExecutingAssembly();

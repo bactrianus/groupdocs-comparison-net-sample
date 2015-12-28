@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Groupdocs.Comparison.Samples.Pdf
+namespace GroupDocs.Comparison.Samples.Pdf
 {
 	public static class ComparisonOfDocumentWithTables
 	{
@@ -8,8 +8,8 @@ namespace Groupdocs.Comparison.Samples.Pdf
 		{
 			string ResultPath = String.Format(@"{0}/{1}", dir,
 				"filePDFWithTable1_pdf was compared with filePDFWithTable2_pdf.pdf");
-			string SourceFileName = "Groupdocs.Comparison.Samples.Pdf.data.filePDFWithTable1.pdf";
-			string TargetFileName = "Groupdocs.Comparison.Samples.Pdf.data.filePDFWithTable2.pdf";
+			string SourceFileName = "GroupDocs.Comparison.Samples.Pdf.data.filePDFWithTable1.pdf";
+			string TargetFileName = "GroupDocs.Comparison.Samples.Pdf.data.filePDFWithTable2.pdf";
 
 			Comparing.ProcessComparing("Comparison of a document with tables (case 1): ", SourceFileName, TargetFileName,
 				ResultPath);
@@ -19,8 +19,8 @@ namespace Groupdocs.Comparison.Samples.Pdf
 		{
 			string ResultPath = String.Format(@"{0}/{1}", dir,
 				"filePDFWithTable2_pdf was compared with filePDFWithTable1_pdf.pdf");
-			string SourceFileName = "Groupdocs.Comparison.Samples.Pdf.data.filePDFWithTable2.pdf";
-			string TargetFileName = "Groupdocs.Comparison.Samples.Pdf.data.filePDFWithTable1.pdf";
+			string SourceFileName = "GroupDocs.Comparison.Samples.Pdf.data.filePDFWithTable2.pdf";
+			string TargetFileName = "GroupDocs.Comparison.Samples.Pdf.data.filePDFWithTable1.pdf";
 
 			Comparing.ProcessComparing("Comparison of a document with tables (case 1, reverse): ", SourceFileName, TargetFileName,
 				ResultPath);
@@ -30,8 +30,8 @@ namespace Groupdocs.Comparison.Samples.Pdf
 		{
 			string ResultPath = String.Format(@"{0}/{1}", dir,
 				"filePDFWithTable1_pdf was compared with filePDFWithTable3_pdf.pdf");
-			string SourceFileName = "Groupdocs.Comparison.Samples.Pdf.data.filePDFWithTable1.pdf";
-			string TargetFileName = "Groupdocs.Comparison.Samples.Pdf.data.filePDFWithTable3.pdf";
+			string SourceFileName = "GroupDocs.Comparison.Samples.Pdf.data.filePDFWithTable1.pdf";
+			string TargetFileName = "GroupDocs.Comparison.Samples.Pdf.data.filePDFWithTable3.pdf";
 
 			Comparing.ProcessComparing("Comparison of a document with tables (case 2): ", SourceFileName, TargetFileName,
 				ResultPath);
@@ -41,8 +41,8 @@ namespace Groupdocs.Comparison.Samples.Pdf
 		{
 			string ResultPath = String.Format(@"{0}/{1}", dir,
 				"filePDFWithTable3_pdf was compared with filePDFWithTable1_pdf.pdf");
-			string SourceFileName = "Groupdocs.Comparison.Samples.Pdf.data.filePDFWithTable3.pdf";
-			string TargetFileName = "Groupdocs.Comparison.Samples.Pdf.data.filePDFWithTable1.pdf";
+			string SourceFileName = "GroupDocs.Comparison.Samples.Pdf.data.filePDFWithTable3.pdf";
+			string TargetFileName = "GroupDocs.Comparison.Samples.Pdf.data.filePDFWithTable1.pdf";
 
 			Comparing.ProcessComparing("Comparison of a document with tables (case 2, reverse): ", SourceFileName, TargetFileName,
 				ResultPath);

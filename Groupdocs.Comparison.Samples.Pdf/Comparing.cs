@@ -5,7 +5,7 @@ using GroupDocs.Comparison.Common.ComparisonSettings;
 using GroupDocs.Comparison.Pdf;
 using GroupDocs.Comparison.Pdf.Contracts.ComparedResult;
 
-namespace Groupdocs.Comparison.Samples.Pdf
+namespace GroupDocs.Comparison.Samples.Pdf
 {
 	public static class Comparing
 	{

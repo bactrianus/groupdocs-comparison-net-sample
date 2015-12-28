@@ -2,7 +2,7 @@
 using GroupDocs.Comparison.Cells.Contracts.Nodes;
 using GroupDocs.Comparison.Common.ComparisonSettings;
 
-namespace Groupdocs.Comparison.Samples.Cells
+namespace GroupDocs.Comparison.Samples.Cells
 {
 	internal class CompareWorksheets
 	{

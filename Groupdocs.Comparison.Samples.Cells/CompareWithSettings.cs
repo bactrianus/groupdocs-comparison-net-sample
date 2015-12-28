@@ -6,7 +6,7 @@ using GroupDocs.Comparison.Cells.Contracts.Nodes;
 using GroupDocs.Comparison.Cells.Nodes;
 using GroupDocs.Comparison.Common.ComparisonSettings;
 
-namespace Groupdocs.Comparison.Samples.Cells
+namespace GroupDocs.Comparison.Samples.Cells
 {
 	public static class CompareWithSettings
 	{
@@ -92,9 +92,9 @@ namespace Groupdocs.Comparison.Samples.Cells
 
 		private static void Compare(string fileName, CellsComparisonSettings settings)
 		{
-			string target_settings_file_name = "Groupdocs.Comparison.Samples.Cells.data.settings_target.xlsx";
+			string target_settings_file_name = "GroupDocs.Comparison.Samples.Cells.data.settings_target.xlsx";
 
-			string source_settings_file_name = "Groupdocs.Comparison.Samples.Cells.data.settings_source.xlsx";
+			string source_settings_file_name = "GroupDocs.Comparison.Samples.Cells.data.settings_source.xlsx";
 
 			var assembly = Assembly.GetExecutingAssembly();
 

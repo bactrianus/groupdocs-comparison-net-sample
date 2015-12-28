@@ -7,22 +7,22 @@ using GroupDocs.Comparison.Words.Contracts.Enums;
 using GroupDocs.Comparison.Words.Contracts.Nodes;
 using GroupDocs.Comparison.Words.Nodes;
 
-namespace Groupdocs.Comparison.Samples.Words.Documents
+namespace GroupDocs.Comparison.Samples.Words.Documents
 {
 	public class CompareDocumentsWithTables
 	{
 		public static void WithTablesOnAppropriatePages()
 		{
-			string sourcePath = @"Groupdocs.Comparison.Samples.Words.Documents.data.WithTablesOnAppropriatePages.source.docx";
-			string targetPath = @"Groupdocs.Comparison.Samples.Words.Documents.data.WithTablesOnAppropriatePages.target.docx";
+			string sourcePath = @"GroupDocs.Comparison.Samples.Words.Documents.data.WithTablesOnAppropriatePages.source.docx";
+			string targetPath = @"GroupDocs.Comparison.Samples.Words.Documents.data.WithTablesOnAppropriatePages.target.docx";
 			string resultPath = @"./../../Documents/testresult/WithTablesOnAppropriatePages/result.docx";
 			Compare(sourcePath, targetPath, resultPath);
 		}
 
 		public static void WithTablesOnDefferentPages()
 		{
-			string sourcePath = @"Groupdocs.Comparison.Samples.Words.Documents.data.WithTablesOnDefferentPages.source.docx";
-			string targetPath = @"Groupdocs.Comparison.Samples.Words.Documents.data.WithTablesOnDefferentPages.target.docx";
+			string sourcePath = @"GroupDocs.Comparison.Samples.Words.Documents.data.WithTablesOnDefferentPages.source.docx";
+			string targetPath = @"GroupDocs.Comparison.Samples.Words.Documents.data.WithTablesOnDefferentPages.target.docx";
 			string resultPath = @"./../../Documents/testresult/WithTablesOnDefferentPages/result.docx";
 			Compare(sourcePath, targetPath, resultPath);
 		}
@@ -30,9 +30,9 @@ namespace Groupdocs.Comparison.Samples.Words.Documents
 		public static void WithTablesWitchContainsDifferentCountOfColumns()
 		{
 			string sourcePath =
-				@"Groupdocs.Comparison.Samples.Words.Documents.data.WithTablesWitchContainsDifferentCountOfColumns.source.docx";
+				@"GroupDocs.Comparison.Samples.Words.Documents.data.WithTablesWitchContainsDifferentCountOfColumns.source.docx";
 			string targetPath =
-				@"Groupdocs.Comparison.Samples.Words.Documents.data.WithTablesWitchContainsDifferentCountOfColumns.target.docx";
+				@"GroupDocs.Comparison.Samples.Words.Documents.data.WithTablesWitchContainsDifferentCountOfColumns.target.docx";
 			string resultPath = @"./../../Documents/testresult/WithTablesWitchContainsDifferentCountOfColumns/result.docx";
 			Compare(sourcePath, targetPath, resultPath);
 		}
@@ -40,9 +40,9 @@ namespace Groupdocs.Comparison.Samples.Words.Documents
 		public static void WithTablesWitchContainsDifferentCountOfRows()
 		{
 			string sourcePath =
-				@"Groupdocs.Comparison.Samples.Words.Documents.data.WithTablesWitchContainsDifferentCountOfRows.source.docx";
+				@"GroupDocs.Comparison.Samples.Words.Documents.data.WithTablesWitchContainsDifferentCountOfRows.source.docx";
 			string targetPath =
-				@"Groupdocs.Comparison.Samples.Words.Documents.data.WithTablesWitchContainsDifferentCountOfRows.target.docx";
+				@"GroupDocs.Comparison.Samples.Words.Documents.data.WithTablesWitchContainsDifferentCountOfRows.target.docx";
 			string resultPath = @"./../../Documents/testresult/WithTablesWitchContainsDifferentCountOfRows/result.docx";
 			Compare(sourcePath, targetPath, resultPath);
 		}
@@ -50,9 +50,9 @@ namespace Groupdocs.Comparison.Samples.Words.Documents
 		public static void WithTablesWitchContainsDifferentCountOfColumnsAndDifferentCountOfRows()
 		{
 			string sourcePath =
-				@"Groupdocs.Comparison.Samples.Words.Documents.data.WithTablesWitchContainsDifferentCountOfColumnAndDifferentCountOfRows.source.docx";
+				@"GroupDocs.Comparison.Samples.Words.Documents.data.WithTablesWitchContainsDifferentCountOfColumnAndDifferentCountOfRows.source.docx";
 			string targetPath =
-				@"Groupdocs.Comparison.Samples.Words.Documents.data.WithTablesWitchContainsDifferentCountOfColumnAndDifferentCountOfRows.target.docx";
+				@"GroupDocs.Comparison.Samples.Words.Documents.data.WithTablesWitchContainsDifferentCountOfColumnAndDifferentCountOfRows.target.docx";
 			string resultPath =
 				@"./../../Documents/testresult/WithTablesWitchContainsDifferentCountOfColumnAndDifferentCountOfRows/result.docx";
 			Compare(sourcePath, targetPath, resultPath);

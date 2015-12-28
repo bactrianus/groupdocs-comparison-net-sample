@@ -1,8 +1,8 @@
-﻿using Groupdocs.Comparison.Samples.Slides.Components;
-using Groupdocs.Comparison.Samples.Slides.Presentations;
-using Groupdocs.Comparison.Samples.Slides.Settings;
+﻿using GroupDocs.Comparison.Samples.Slides.Components;
+using GroupDocs.Comparison.Samples.Slides.Presentations;
+using GroupDocs.Comparison.Samples.Slides.Settings;
 
-namespace Groupdocs.Comparison.Samples.Slides
+namespace GroupDocs.Comparison.Samples.Slides
 {
 	internal class Program
 	{

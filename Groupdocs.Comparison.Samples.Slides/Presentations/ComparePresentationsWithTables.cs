@@ -7,14 +7,14 @@ using GroupDocs.Comparison.Slides.Contracts;
 using GroupDocs.Comparison.Slides.Contracts.Comparison;
 using GroupDocs.Comparison.Slides.Contracts.Enums;
 
-namespace Groupdocs.Comparison.Samples.Slides.Presentations
+namespace GroupDocs.Comparison.Samples.Slides.Presentations
 {
 	public class ComparePresentationsWithTables
 	{
 		public static void ComparePresentationsWithTablesOnAppropriateSlides()
 		{
-			string sourcePath = @"Groupdocs.Comparison.Samples.Slides.Presentations.data.WithTablesOnAppropriateSlides.old.pptx";
-			string targetPath = @"Groupdocs.Comparison.Samples.Slides.Presentations.data.WithTablesOnAppropriateSlides.new.pptx";
+			string sourcePath = @"GroupDocs.Comparison.Samples.Slides.Presentations.data.WithTablesOnAppropriateSlides.old.pptx";
+			string targetPath = @"GroupDocs.Comparison.Samples.Slides.Presentations.data.WithTablesOnAppropriateSlides.new.pptx";
 			string resultPath = @"./../../Presentations/testresult/WithTablesOnAppropriateSlides/result.pptx";
 			// Creating settings for comparison of presentations
 			SlidesComparisonSettings SlidesComparisonSettings = new SlidesComparisonSettings();
@@ -23,8 +23,8 @@ namespace Groupdocs.Comparison.Samples.Slides.Presentations
 
 		public static void ComparePresentationsWithTablesOnDifferentSlides()
 		{
-			string sourcePath = @"Groupdocs.Comparison.Samples.Slides.Presentations.data.WithTablesOnDifferentSlides.old.pptx";
-			string targetPath = @"Groupdocs.Comparison.Samples.Slides.Presentations.data.WithTablesOnDifferentSlides.new.pptx";
+			string sourcePath = @"GroupDocs.Comparison.Samples.Slides.Presentations.data.WithTablesOnDifferentSlides.old.pptx";
+			string targetPath = @"GroupDocs.Comparison.Samples.Slides.Presentations.data.WithTablesOnDifferentSlides.new.pptx";
 			string resultPath = @"./../../Presentations/testresult/WithTablesOnDifferentSlides/result.pptx";
 			// Creating settings for comparison of presentations
 			SlidesComparisonSettings SlidesComparisonSettings = new SlidesComparisonSettings();
@@ -34,9 +34,9 @@ namespace Groupdocs.Comparison.Samples.Slides.Presentations
 		public static void ComparePresentationsWithTablesWitchConyainsDifferentCountOfRows()
 		{
 			string sourcePath =
-				@"Groupdocs.Comparison.Samples.Slides.Presentations.data.WithTablesWitchConyainsDifferentCountOfRows.old.pptx";
+				@"GroupDocs.Comparison.Samples.Slides.Presentations.data.WithTablesWitchConyainsDifferentCountOfRows.old.pptx";
 			string targetPath =
-				@"Groupdocs.Comparison.Samples.Slides.Presentations.data.WithTablesWitchConyainsDifferentCountOfRows.new.pptx";
+				@"GroupDocs.Comparison.Samples.Slides.Presentations.data.WithTablesWitchConyainsDifferentCountOfRows.new.pptx";
 			string resultPath = @"./../../Presentations/testresult/WithTablesWitchConyainsDifferentCountOfRows/result.pptx";
 			// Creating settings for comparison of presentations
 			SlidesComparisonSettings SlidesComparisonSettings = new SlidesComparisonSettings();
@@ -46,9 +46,9 @@ namespace Groupdocs.Comparison.Samples.Slides.Presentations
 		public static void ComparePresentationsWithTablesWitchConyainsDifferentCountOfColumns()
 		{
 			string sourcePath =
-				@"Groupdocs.Comparison.Samples.Slides.Presentations.data.WithTablesWitchConyainsDifferentCountOfColumns.old.pptx";
+				@"GroupDocs.Comparison.Samples.Slides.Presentations.data.WithTablesWitchConyainsDifferentCountOfColumns.old.pptx";
 			string targetPath =
-				@"Groupdocs.Comparison.Samples.Slides.Presentations.data.WithTablesWitchConyainsDifferentCountOfColumns.new.pptx";
+				@"GroupDocs.Comparison.Samples.Slides.Presentations.data.WithTablesWitchConyainsDifferentCountOfColumns.new.pptx";
 			string resultPath = @"./../../Presentations/testresult/WithTablesWitchConyainsDifferentCountOfColumns/result.pptx";
 			// Creating settings for comparison of presentations
 			SlidesComparisonSettings SlidesComparisonSettings = new SlidesComparisonSettings();
@@ -58,9 +58,9 @@ namespace Groupdocs.Comparison.Samples.Slides.Presentations
 		public static void ComparePresentationsWithTablesWitchConyainsDifferentCountOfColumnsAndDifferentCountOfRows()
 		{
 			string sourcePath =
-				@"Groupdocs.Comparison.Samples.Slides.Presentations.data.WithTablesWitchConyainsDifferentCountOfColumnsAndDifferentCountOfRows.old.pptx";
+				@"GroupDocs.Comparison.Samples.Slides.Presentations.data.WithTablesWitchConyainsDifferentCountOfColumnsAndDifferentCountOfRows.old.pptx";
 			string targetPath =
-				@"Groupdocs.Comparison.Samples.Slides.Presentations.data.WithTablesWitchConyainsDifferentCountOfColumnsAndDifferentCountOfRows.new.pptx";
+				@"GroupDocs.Comparison.Samples.Slides.Presentations.data.WithTablesWitchConyainsDifferentCountOfColumnsAndDifferentCountOfRows.new.pptx";
 			string resultPath =
 				@"./../../Presentations/testresult/WithTablesWitchConyainsDifferentCountOfColumnsAndDifferentCountOfRows/result.pptx";
 			// Creating settings for comparison of presentations

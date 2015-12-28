@@ -7,8 +7,8 @@
     <ProjectGuid>{7A6EC3C8-D003-43DB-AE9B-FEE7CB074680}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Groupdocs.Comparison.Samples.Cells</RootNamespace>
-    <AssemblyName>Groupdocs.Comparison.Samples.Cells</AssemblyName>
+    <RootNamespace>GroupDocs.Comparison.Samples.Cells</RootNamespace>
+    <AssemblyName>GroupDocs.Comparison.Samples.Cells</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

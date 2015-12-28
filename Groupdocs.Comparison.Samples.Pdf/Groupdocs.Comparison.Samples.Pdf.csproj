@@ -7,8 +7,8 @@
     <ProjectGuid>{835C2A60-9D80-410C-B63F-D1C1542FA098}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Groupdocs.Comparison.Samples.Pdf</RootNamespace>
-    <AssemblyName>Groupdocs.Comparison.Samples.Pdf</AssemblyName>
+    <RootNamespace>GroupDocs.Comparison.Samples.Pdf</RootNamespace>
+    <AssemblyName>GroupDocs.Comparison.Samples.Pdf</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

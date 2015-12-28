@@ -8,7 +8,7 @@ using GroupDocs.Comparison.Slides.Contracts;
 using GroupDocs.Comparison.Slides.Contracts.Comparison;
 using GroupDocs.Comparison.Slides.Contracts.Enums;
 
-namespace Groupdocs.Comparison.Samples.Slides.Settings
+namespace GroupDocs.Comparison.Samples.Slides.Settings
 {
 	internal class ComparisonWithDifferentSettings
 	{
@@ -87,8 +87,8 @@ namespace Groupdocs.Comparison.Samples.Slides.Settings
 
 		private static void Compare(string resultPath, SlidesComparisonSettings SlidesComparisonSettings)
 		{
-			string sourcePath = @"Groupdocs.Comparison.Samples.Slides.Settings.data.source.pptx";
-			string targetPath = @"Groupdocs.Comparison.Samples.Slides.Settings.data.target.pptx";
+			string sourcePath = @"GroupDocs.Comparison.Samples.Slides.Settings.data.source.pptx";
+			string targetPath = @"GroupDocs.Comparison.Samples.Slides.Settings.data.target.pptx";
 			// Create to streams of presentations
 			Assembly assembly = Assembly.GetExecutingAssembly();
 			Stream sourceStream = assembly.GetManifestResourceStream(sourcePath);

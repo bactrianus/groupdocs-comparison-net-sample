@@ -7,8 +7,8 @@
     <ProjectGuid>{DE1ABF1C-36C9-4BF6-BF9B-2C0697E3EA19}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Groupdocs.Comparison.Samples</RootNamespace>
-    <AssemblyName>Groupdocs.Comparison.Samples</AssemblyName>
+    <RootNamespace>GroupDocs.Comparison.Samples</RootNamespace>
+    <AssemblyName>GroupDocs.Comparison.Samples</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

@@ -1,23 +1,23 @@
 ﻿using System.Reflection;
 using GroupDocs.Comparison.Cells.Nodes;
 
-namespace Groupdocs.Comparison.Samples.Cells
+namespace GroupDocs.Comparison.Samples.Cells
 {
 	internal class Program
 	{
 		private static void Main(string[] args)
 		{
-			string target_file_name = "Groupdocs.Comparison.Samples.Cells.data.cwt_target.xlsx";
+			string target_file_name = "GroupDocs.Comparison.Samples.Cells.data.cwt_target.xlsx";
 
-			string source_file_name = "Groupdocs.Comparison.Samples.Cells.data.cwt_source.xlsx";
+			string source_file_name = "GroupDocs.Comparison.Samples.Cells.data.cwt_source.xlsx";
 
-			string target_wb_file_name = "Groupdocs.Comparison.Samples.Cells.data.wbt_target.xlsx";
+			string target_wb_file_name = "GroupDocs.Comparison.Samples.Cells.data.wbt_target.xlsx";
 
-			string source_wb_file_name = "Groupdocs.Comparison.Samples.Cells.data.wbt_source.xlsx";
+			string source_wb_file_name = "GroupDocs.Comparison.Samples.Cells.data.wbt_source.xlsx";
 
-			string source_big_file_name = "Groupdocs.Comparison.Samples.Cells.data.source.xls";
+			string source_big_file_name = "GroupDocs.Comparison.Samples.Cells.data.source.xls";
 
-			string target_big_file_name = "Groupdocs.Comparison.Samples.Cells.data.target.xls";
+			string target_big_file_name = "GroupDocs.Comparison.Samples.Cells.data.target.xls";
 
 			Assembly assembly = Assembly.GetExecutingAssembly();
 

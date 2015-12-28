@@ -2,7 +2,7 @@
 using System.Drawing;
 using GroupDocs.Comparison.Common.ComparisonSettings;
 
-namespace Groupdocs.Comparison.Samples.Pdf
+namespace GroupDocs.Comparison.Samples.Pdf
 {
 	public static class ComparisonUsingSettings
 	{
@@ -10,8 +10,8 @@ namespace Groupdocs.Comparison.Samples.Pdf
 		{
 			string ResultPath = String.Format(@"{0}/{1}", dir,
 				"DefaultSettings - filePDFSourceWithCountPages5_pdf was compared with filePDFTargetWithCountPages5_pdf.pdf");
-			string SourceFileName = "Groupdocs.Comparison.Samples.Pdf.data.filePDFSourceWithCountPages5.pdf";
-			string TargetFileName = "Groupdocs.Comparison.Samples.Pdf.data.filePDFTargetWithCountPages5.pdf";
+			string SourceFileName = "GroupDocs.Comparison.Samples.Pdf.data.filePDFSourceWithCountPages5.pdf";
+			string TargetFileName = "GroupDocs.Comparison.Samples.Pdf.data.filePDFTargetWithCountPages5.pdf";
 
 			Comparing.ProcessComparing("Comparison pdf using DefaultSettings: ", SourceFileName, TargetFileName, ResultPath);
 		}
@@ -20,8 +20,8 @@ namespace Groupdocs.Comparison.Samples.Pdf
 		{
 			string ResultPath = String.Format(@"{0}/{1}", dir,
 				"GenerateSummaryPage = false - filePDFSourceWithCountPages5_pdf was compared with filePDFTargetWithCountPages5_pdf.pdf");
-			string SourceFileName = "Groupdocs.Comparison.Samples.Pdf.data.filePDFSourceWithCountPages5.pdf";
-			string TargetFileName = "Groupdocs.Comparison.Samples.Pdf.data.filePDFTargetWithCountPages5.pdf";
+			string SourceFileName = "GroupDocs.Comparison.Samples.Pdf.data.filePDFSourceWithCountPages5.pdf";
+			string TargetFileName = "GroupDocs.Comparison.Samples.Pdf.data.filePDFTargetWithCountPages5.pdf";
 
 			PdfComparisonSettings settings = new PdfComparisonSettings()
 			{
@@ -36,8 +36,8 @@ namespace Groupdocs.Comparison.Samples.Pdf
 		{
 			string ResultPath = String.Format(@"{0}/{1}", dir,
 				"InsertedItemsStyleIsDefined - filePDFSourceWithCountPages5_pdf was compared with filePDFTargetWithCountPages5_pdf.pdf");
-			string SourceFileName = "Groupdocs.Comparison.Samples.Pdf.data.filePDFSourceWithCountPages5.pdf";
-			string TargetFileName = "Groupdocs.Comparison.Samples.Pdf.data.filePDFTargetWithCountPages5.pdf";
+			string SourceFileName = "GroupDocs.Comparison.Samples.Pdf.data.filePDFSourceWithCountPages5.pdf";
+			string TargetFileName = "GroupDocs.Comparison.Samples.Pdf.data.filePDFTargetWithCountPages5.pdf";
 
 			PdfComparisonSettings settings = new PdfComparisonSettings()
 			{
@@ -58,8 +58,8 @@ namespace Groupdocs.Comparison.Samples.Pdf
 		{
 			string ResultPath = String.Format(@"{0}/{1}", dir,
 				"DeletedItemsStyleIsDefined - filePDFSourceWithCountPages5_pdf was compared with filePDFTargetWithCountPages5_pdf.pdf");
-			string SourceFileName = "Groupdocs.Comparison.Samples.Pdf.data.filePDFSourceWithCountPages5.pdf";
-			string TargetFileName = "Groupdocs.Comparison.Samples.Pdf.data.filePDFTargetWithCountPages5.pdf";
+			string SourceFileName = "GroupDocs.Comparison.Samples.Pdf.data.filePDFSourceWithCountPages5.pdf";
+			string TargetFileName = "GroupDocs.Comparison.Samples.Pdf.data.filePDFTargetWithCountPages5.pdf";
 
 			PdfComparisonSettings settings = new PdfComparisonSettings()
 			{
@@ -79,8 +79,8 @@ namespace Groupdocs.Comparison.Samples.Pdf
 		{
 			string ResultPath = String.Format(@"{0}/{1}", dir,
 				"ShowDeletedContentIsFalse - filePDFSourceWithCountPages5_pdf was compared with filePDFTargetWithCountPages5_pdf.pdf");
-			string SourceFileName = "Groupdocs.Comparison.Samples.Pdf.data.filePDFSourceWithCountPages5.pdf";
-			string TargetFileName = "Groupdocs.Comparison.Samples.Pdf.data.filePDFTargetWithCountPages5.pdf";
+			string SourceFileName = "GroupDocs.Comparison.Samples.Pdf.data.filePDFSourceWithCountPages5.pdf";
+			string TargetFileName = "GroupDocs.Comparison.Samples.Pdf.data.filePDFTargetWithCountPages5.pdf";
 
 			PdfComparisonSettings settings = new PdfComparisonSettings()
 			{
@@ -95,8 +95,8 @@ namespace Groupdocs.Comparison.Samples.Pdf
 		{
 			string ResultPath = String.Format(@"{0}/{1}", dir,
 				"ComparisonDepthIsChars - Source1_pdf was compared with Target1_pdf.pdf");
-			string SourceFileName = "Groupdocs.Comparison.Samples.Pdf.data.Source1.pdf";
-			string TargetFileName = "Groupdocs.Comparison.Samples.Pdf.data.Target1.pdf";
+			string SourceFileName = "GroupDocs.Comparison.Samples.Pdf.data.Source1.pdf";
+			string TargetFileName = "GroupDocs.Comparison.Samples.Pdf.data.Target1.pdf";
 
 			PdfComparisonSettings settings = new PdfComparisonSettings()
 			{
@@ -111,8 +111,8 @@ namespace Groupdocs.Comparison.Samples.Pdf
 		{
 			string ResultPath = String.Format(@"{0}/{1}", dir,
 				"ComparisonDepthIsWords - Source1_pdf was compared with Target1_pdf.pdf");
-			string SourceFileName = "Groupdocs.Comparison.Samples.Pdf.data.Source1.pdf";
-			string TargetFileName = "Groupdocs.Comparison.Samples.Pdf.data.Target1.pdf";
+			string SourceFileName = "GroupDocs.Comparison.Samples.Pdf.data.Source1.pdf";
+			string TargetFileName = "GroupDocs.Comparison.Samples.Pdf.data.Target1.pdf";
 
 			PdfComparisonSettings settings = new PdfComparisonSettings()
 			{

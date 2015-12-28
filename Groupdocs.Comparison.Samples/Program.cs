@@ -1,4 +1,4 @@
-﻿namespace Groupdocs.Comparison.Samples
+﻿namespace GroupDocs.Comparison.Samples
 {
 	internal class Program
 	{

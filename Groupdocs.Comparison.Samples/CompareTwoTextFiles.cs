@@ -4,14 +4,14 @@ using System.Reflection;
 using GroupDocs.Comparison.Common;
 using GroupDocs.Comparison.Common.ComparisonSettings;
 
-namespace Groupdocs.Comparison.Samples
+namespace GroupDocs.Comparison.Samples
 {
 	internal class CompareTwoTextFiles
 	{
 		public static void CompareTwoTextFilesFromStreamsWithSavingToFileAndSettings()
 		{
-			string sourcePath = @"Groupdocs.Comparison.Samples.data.Text.source.txt";
-			string targetPath = @"Groupdocs.Comparison.Samples.data.Text.target.txt";
+			string sourcePath = @"GroupDocs.Comparison.Samples.data.Text.source.txt";
+			string targetPath = @"GroupDocs.Comparison.Samples.data.Text.target.txt";
 			string resultPath = @"./../../testresult/FromStreamsWithSavingToFileAndSettings/result.txt";
 
 			// Create two streams of TextFiles

@@ -4,14 +4,14 @@ using System.Reflection;
 using GroupDocs.Comparison.Common;
 using GroupDocs.Comparison.Common.ComparisonSettings;
 
-namespace Groupdocs.Comparison.Samples
+namespace GroupDocs.Comparison.Samples
 {
 	internal class CompareTwoPdfDocuments
 	{
 		public static void CompareTwoPdfDocumentsFromStreamsWithSavingToFileAndSettings()
 		{
-			string sourcePath = @"Groupdocs.Comparison.Samples.data.Pdf.source.pdf";
-			string targetPath = @"Groupdocs.Comparison.Samples.data.Pdf.target.pdf";
+			string sourcePath = @"GroupDocs.Comparison.Samples.data.Pdf.source.pdf";
+			string targetPath = @"GroupDocs.Comparison.Samples.data.Pdf.target.pdf";
 			string resultPath = @"./../../testresult/FromStreamsWithSavingToFileAndSettings/result.pdf";
 
 			// Create two streams of documents

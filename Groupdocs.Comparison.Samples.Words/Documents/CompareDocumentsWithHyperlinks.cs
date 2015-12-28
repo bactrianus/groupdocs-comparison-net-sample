@@ -7,14 +7,14 @@ using GroupDocs.Comparison.Words.Contracts.Enums;
 using GroupDocs.Comparison.Words.Contracts.Nodes;
 using GroupDocs.Comparison.Words.Nodes;
 
-namespace Groupdocs.Comparison.Samples.Words.Documents
+namespace GroupDocs.Comparison.Samples.Words.Documents
 {
 	public class CompareDocumentsWithHyperlinks
 	{
 		public static void WithIgnoreLinkSetting()
 		{
-			string sourcePath = @"Groupdocs.Comparison.Samples.Words.Documents.data.WithIgnoreLinkSetting.source.docx";
-			string targetPath = @"Groupdocs.Comparison.Samples.Words.Documents.data.WithIgnoreLinkSetting.target.docx";
+			string sourcePath = @"GroupDocs.Comparison.Samples.Words.Documents.data.WithIgnoreLinkSetting.source.docx";
+			string targetPath = @"GroupDocs.Comparison.Samples.Words.Documents.data.WithIgnoreLinkSetting.target.docx";
 			string resultPath = @"./../../Documents/testresult/WithIgnoreLinkSetting/result.docx";
 			WordsComparisonSettings comparisonSettings = new WordsComparisonSettings();
 			comparisonSettings.ProcessHyperLinksAsAText = true;
@@ -23,8 +23,8 @@ namespace Groupdocs.Comparison.Samples.Words.Documents
 
 		public static void WithoutIgnoreLinkSetting()
 		{
-			string sourcePath = @"Groupdocs.Comparison.Samples.Words.Documents.data.WithoutIgnoreLinkSetting.source.docx";
-			string targetPath = @"Groupdocs.Comparison.Samples.Words.Documents.data.WithoutIgnoreLinkSetting.target.docx";
+			string sourcePath = @"GroupDocs.Comparison.Samples.Words.Documents.data.WithoutIgnoreLinkSetting.source.docx";
+			string targetPath = @"GroupDocs.Comparison.Samples.Words.Documents.data.WithoutIgnoreLinkSetting.target.docx";
 			string resultPath = @"./../../Documents/testresult/WithoutIgnoreLinkSetting/result.docx";
 			WordsComparisonSettings comparisonSettings = new WordsComparisonSettings();
 			Compare(sourcePath, targetPath, resultPath, comparisonSettings);

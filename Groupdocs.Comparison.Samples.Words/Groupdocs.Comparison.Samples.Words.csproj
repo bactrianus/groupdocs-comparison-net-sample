@@ -7,8 +7,8 @@
     <ProjectGuid>{36723E98-E429-4E43-BF54-55A4E2EFAFA5}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Groupdocs.Comparison.Samples.Words</RootNamespace>
-    <AssemblyName>Groupdocs.Comparison.Samples.Words</AssemblyName>
+    <RootNamespace>GroupDocs.Comparison.Samples.Words</RootNamespace>
+    <AssemblyName>GroupDocs.Comparison.Samples.Words</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

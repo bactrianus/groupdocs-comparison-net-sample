@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("Groupdocs.Comparison.Samples.Text")]
+[assembly: AssemblyTitle("GroupDocs.Comparison.Samples.Text")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Groupdocs.Comparison.Samples.Text")]
+[assembly: AssemblyProduct("GroupDocs.Comparison.Samples.Text")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

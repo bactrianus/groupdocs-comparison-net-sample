@@ -4,14 +4,14 @@ using System.Reflection;
 using GroupDocs.Comparison.Common;
 using GroupDocs.Comparison.Common.ComparisonSettings;
 
-namespace Groupdocs.Comparison.Samples
+namespace GroupDocs.Comparison.Samples
 {
 	internal class CompareTwoPresentations
 	{
 		public static void CompareTwoPresentationsFromStreamsWithSavingToFileAndSettings()
 		{
-			string sourcePath = @"Groupdocs.Comparison.Samples.data.Slides.source.pptx";
-			string targetPath = @"Groupdocs.Comparison.Samples.data.Slides.target.pptx";
+			string sourcePath = @"GroupDocs.Comparison.Samples.data.Slides.source.pptx";
+			string targetPath = @"GroupDocs.Comparison.Samples.data.Slides.target.pptx";
 			string resultPath = @"./../../testresult/FromStreamsWithSavingToFileAndSettings/result.pptx";
 
 			// Create two streams of documents

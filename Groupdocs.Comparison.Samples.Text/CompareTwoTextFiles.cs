@@ -5,14 +5,14 @@ using GroupDocs.Comparison.Common.ComparisonSettings;
 using GroupDocs.Comparison.Text;
 using GroupDocs.Comparison.Text.Contracts;
 
-namespace Groupdocs.Comparison.Samples.Text
+namespace GroupDocs.Comparison.Samples.Text
 {
 	internal class CompareTwoTextFiles
 	{
 		public static void CompareTwoFilesWithPlainText()
 		{
-			string sourcePath = @"Groupdocs.Comparison.Samples.Text.data.source.txt";
-			string targetPath = @"Groupdocs.Comparison.Samples.Text.data.target.txt";
+			string sourcePath = @"GroupDocs.Comparison.Samples.Text.data.source.txt";
+			string targetPath = @"GroupDocs.Comparison.Samples.Text.data.target.txt";
 			string resultPath = @"./../../testresult/WithPlainText/result.txt";
 			Compare(sourcePath, targetPath, resultPath);
 		}

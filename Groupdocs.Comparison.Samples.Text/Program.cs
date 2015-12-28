@@ -1,6 +1,6 @@
-﻿using Groupdocs.Comparison.Samples.Text.Settings;
+﻿using GroupDocs.Comparison.Samples.Text.Settings;
 
-namespace Groupdocs.Comparison.Samples.Text
+namespace GroupDocs.Comparison.Samples.Text
 {
 	internal class Program
 	{

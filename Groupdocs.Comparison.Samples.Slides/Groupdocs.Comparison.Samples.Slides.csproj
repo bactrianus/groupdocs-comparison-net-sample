@@ -7,8 +7,8 @@
     <ProjectGuid>{2724657B-94FB-4501-9AA4-7CBC96111CFE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Groupdocs.Comparison.Samples.Slides</RootNamespace>
-    <AssemblyName>Groupdocs.Comparison.Samples.Slides</AssemblyName>
+    <RootNamespace>GroupDocs.Comparison.Samples.Slides</RootNamespace>
+    <AssemblyName>GroupDocs.Comparison.Samples.Slides</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

@@ -8,7 +8,7 @@ using GroupDocs.Comparison.Words.Contracts.Enums;
 using GroupDocs.Comparison.Words.Contracts.Nodes;
 using GroupDocs.Comparison.Words.Nodes;
 
-namespace Groupdocs.Comparison.Samples.Words.Settings
+namespace GroupDocs.Comparison.Samples.Words.Settings
 {
 	internal class ComparisonWithDifferentSettings
 	{
@@ -87,8 +87,8 @@ namespace Groupdocs.Comparison.Samples.Words.Settings
 
 		private static void Compare(string resultPath, WordsComparisonSettings comparisonSettings)
 		{
-			string sourcePath = @"Groupdocs.Comparison.Samples.Words.Settings.data.source.docx";
-			string targetPath = @"Groupdocs.Comparison.Samples.Words.Settings.data.target.docx";
+			string sourcePath = @"GroupDocs.Comparison.Samples.Words.Settings.data.source.docx";
+			string targetPath = @"GroupDocs.Comparison.Samples.Words.Settings.data.target.docx";
 			// Create to streams of Documents
 			Assembly assembly = Assembly.GetExecutingAssembly();
 			Stream sourceStream = assembly.GetManifestResourceStream(sourcePath);

@@ -7,16 +7,16 @@ using GroupDocs.Comparison.Words.Contracts.Enums;
 using GroupDocs.Comparison.Words.Contracts.Nodes;
 using GroupDocs.Comparison.Words.Nodes;
 
-namespace Groupdocs.Comparison.Samples.Words.Components
+namespace GroupDocs.Comparison.Samples.Words.Components
 {
     class CompareTables
     {
         public static void CompareTablesFromDifferentDocuments()
         {
             string sourcePath =
-                @"Groupdocs.Comparison.Samples.Words.Components.data.CompareTablesFromDifferentDocuments.source.docx";
+                @"GroupDocs.Comparison.Samples.Words.Components.data.CompareTablesFromDifferentDocuments.source.docx";
             string targetPath =
-                @"Groupdocs.Comparison.Samples.Words.Components.data.CompareTablesFromDifferentDocuments.target.docx";
+                @"GroupDocs.Comparison.Samples.Words.Components.data.CompareTablesFromDifferentDocuments.target.docx";
 
             // Create to streams of documents
             Assembly assembly = Assembly.GetExecutingAssembly();
@@ -55,7 +55,7 @@ namespace Groupdocs.Comparison.Samples.Words.Components
         public static void CompareTableFromDocumentWithCreatingTable()
         {
             string sourcePath =
-                @"Groupdocs.Comparison.Samples.Words.Components.data.CompareTableFromDocumentWithCreatingTable.source.docx";
+                @"GroupDocs.Comparison.Samples.Words.Components.data.CompareTableFromDocumentWithCreatingTable.source.docx";
 
             // Create to stream of document
             Assembly assembly = Assembly.GetExecutingAssembly();

@@ -7,16 +7,16 @@ using GroupDocs.Comparison.Slides.Contracts;
 using GroupDocs.Comparison.Slides.Contracts.Comparison;
 using GroupDocs.Comparison.Slides.Contracts.Enums;
 
-namespace Groupdocs.Comparison.Samples.Slides.Presentations
+namespace GroupDocs.Comparison.Samples.Slides.Presentations
 {
 	public class ComparePresentationsWithAutoShapes
 	{
 		public static void ComparePresentationsWithAutoShapesOnAppropriateSlides()
 		{
 			string sourcePath =
-				@"Groupdocs.Comparison.Samples.Slides.Presentations.data.WithAutoShapesOnAppropriateSlides.old.pptx";
+				@"GroupDocs.Comparison.Samples.Slides.Presentations.data.WithAutoShapesOnAppropriateSlides.old.pptx";
 			string targetPath =
-				@"Groupdocs.Comparison.Samples.Slides.Presentations.data.WithAutoShapesOnAppropriateSlides.new.pptx";
+				@"GroupDocs.Comparison.Samples.Slides.Presentations.data.WithAutoShapesOnAppropriateSlides.new.pptx";
 			string resultPath = @"./../../Presentations/testresult/WithAutoShapesOnAppropriateSlides/result.pptx";
 			Compare(sourcePath, targetPath, resultPath);
 		}
@@ -24,9 +24,9 @@ namespace Groupdocs.Comparison.Samples.Slides.Presentations
 		public static void ComparePresentationsWithAutoShapesOnDifferentSlides()
 		{
 			string sourcePath =
-				@"Groupdocs.Comparison.Samples.Slides.Presentations.data.WithAutoShapesOnDifferentSlides.old.pptx";
+				@"GroupDocs.Comparison.Samples.Slides.Presentations.data.WithAutoShapesOnDifferentSlides.old.pptx";
 			string targetPath =
-				@"Groupdocs.Comparison.Samples.Slides.Presentations.data.WithAutoShapesOnDifferentSlides.new.pptx";
+				@"GroupDocs.Comparison.Samples.Slides.Presentations.data.WithAutoShapesOnDifferentSlides.new.pptx";
 			string resultPath = @"./../../Presentations/testresult/WithAutoShapesOnDifferentSlides/result.pptx";
 			Compare(sourcePath, targetPath, resultPath);
 		}

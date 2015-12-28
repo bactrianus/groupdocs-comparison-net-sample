@@ -1,8 +1,8 @@
-﻿using Groupdocs.Comparison.Samples.Words.Components;
-using Groupdocs.Comparison.Samples.Words.Documents;
-using Groupdocs.Comparison.Samples.Words.Settings;
+﻿using GroupDocs.Comparison.Samples.Words.Components;
+using GroupDocs.Comparison.Samples.Words.Documents;
+using GroupDocs.Comparison.Samples.Words.Settings;
 
-namespace Groupdocs.Comparison.Samples.Words
+namespace GroupDocs.Comparison.Samples.Words
 {
 	internal class Program
 	{

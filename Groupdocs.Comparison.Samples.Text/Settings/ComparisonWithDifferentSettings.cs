@@ -5,7 +5,7 @@ using GroupDocs.Comparison.Common.ComparisonSettings;
 using GroupDocs.Comparison.Text;
 using GroupDocs.Comparison.Text.Contracts;
 
-namespace Groupdocs.Comparison.Samples.Text.Settings
+namespace GroupDocs.Comparison.Samples.Text.Settings
 {
 	internal class ComparisonWithDifferentSettings
 	{
@@ -86,8 +86,8 @@ namespace Groupdocs.Comparison.Samples.Text.Settings
 
 		private static void Compare(string resultPath, TextComparisonSettings comparisonSettings)
 		{
-			string sourcePath = @"Groupdocs.Comparison.Samples.Text.Settings.data.source.txt";
-			string targetPath = @"Groupdocs.Comparison.Samples.Text.Settings.data.target.txt";
+			string sourcePath = @"GroupDocs.Comparison.Samples.Text.Settings.data.source.txt";
+			string targetPath = @"GroupDocs.Comparison.Samples.Text.Settings.data.target.txt";
 			// Create to streams of textFiles
 			Assembly assembly = Assembly.GetExecutingAssembly();
 			Stream sourceStream = assembly.GetManifestResourceStream(sourcePath);

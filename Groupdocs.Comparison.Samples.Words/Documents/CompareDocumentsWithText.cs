@@ -7,22 +7,22 @@ using GroupDocs.Comparison.Words.Contracts.Enums;
 using GroupDocs.Comparison.Words.Contracts.Nodes;
 using GroupDocs.Comparison.Words.Nodes;
 
-namespace Groupdocs.Comparison.Samples.Words.Documents
+namespace GroupDocs.Comparison.Samples.Words.Documents
 {
 	public class CompareDocumentsWithText
 	{
 		public static void WithTextOnAppropriatePages()
 		{
-			string sourcePath = @"Groupdocs.Comparison.Samples.Words.Documents.data.WithTextOnAppropriatePages.source.docx";
-			string targetPath = @"Groupdocs.Comparison.Samples.Words.Documents.data.WithTextOnAppropriatePages.target.docx";
+			string sourcePath = @"GroupDocs.Comparison.Samples.Words.Documents.data.WithTextOnAppropriatePages.source.docx";
+			string targetPath = @"GroupDocs.Comparison.Samples.Words.Documents.data.WithTextOnAppropriatePages.target.docx";
 			string resultPath = @"./../../Documents/testresult/WithTextOnAppropriatePages/result.docx";
 			Compare(sourcePath, targetPath, resultPath);
 		}
 
 		public static void WithTextOnDifferentPages()
 		{
-			string sourcePath = @"Groupdocs.Comparison.Samples.Words.Documents.data.WithTextOnDifferentPages.source.docx";
-			string targetPath = @"Groupdocs.Comparison.Samples.Words.Documents.data.WithTextOnDifferentPages.target.docx";
+			string sourcePath = @"GroupDocs.Comparison.Samples.Words.Documents.data.WithTextOnDifferentPages.source.docx";
+			string targetPath = @"GroupDocs.Comparison.Samples.Words.Documents.data.WithTextOnDifferentPages.target.docx";
 			string resultPath = @"./../../Documents/testresult/WithTextOnDifferentPages/result.docx";
 			Compare(sourcePath, targetPath, resultPath);
 		}

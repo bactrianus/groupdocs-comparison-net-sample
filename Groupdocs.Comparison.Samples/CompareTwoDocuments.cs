@@ -8,14 +8,14 @@ using GroupDocs.Comparison.Words.Contracts.Enums;
 using GroupDocs.Comparison.Words.Contracts.Nodes;
 using GroupDocs.Comparison.Words.Nodes;
 
-namespace Groupdocs.Comparison.Samples
+namespace GroupDocs.Comparison.Samples
 {
 	internal class CompareTwoDocuments
 	{
 		public static void CompareTwoDocumentsFromStreamsWithSavingToFileAndSettings()
 		{
-			string sourcePath = @"Groupdocs.Comparison.Samples.data.Words.source.docx";
-			string targetPath = @"Groupdocs.Comparison.Samples.data.Words.target.docx";
+			string sourcePath = @"GroupDocs.Comparison.Samples.data.Words.source.docx";
+			string targetPath = @"GroupDocs.Comparison.Samples.data.Words.target.docx";
 			string resultPath = @"./../../testresult/FromStreamsWithSavingToFileAndSettings/result.docx";
 
 			// Create two streams of documents
@@ -33,8 +33,8 @@ namespace Groupdocs.Comparison.Samples
 
 		public static void CompareTwoDocumentsFromStreamsWithSettings()
 		{
-			string sourcePath = @"Groupdocs.Comparison.Samples.data.Words.source.docx";
-			string targetPath = @"Groupdocs.Comparison.Samples.data.Words.target.docx";
+			string sourcePath = @"GroupDocs.Comparison.Samples.data.Words.source.docx";
+			string targetPath = @"GroupDocs.Comparison.Samples.data.Words.target.docx";
 
 			// Create two streams of documents
 			Assembly assembly = Assembly.GetExecutingAssembly();
@@ -56,8 +56,8 @@ namespace Groupdocs.Comparison.Samples
 
 		public static void CompareTwoDocumentsFromStreamsWithSavingToFile()
 		{
-			string sourcePath = @"Groupdocs.Comparison.Samples.data.Words.source.docx";
-			string targetPath = @"Groupdocs.Comparison.Samples.data.Words.target.docx";
+			string sourcePath = @"GroupDocs.Comparison.Samples.data.Words.source.docx";
+			string targetPath = @"GroupDocs.Comparison.Samples.data.Words.target.docx";
 			string resultPath = @"./../../testresult/FromStreamsWithSavingToFile/result.docx";
 
 			// Create two streams of documents
@@ -74,8 +74,8 @@ namespace Groupdocs.Comparison.Samples
 
 		public static void CompareTwoDocumentsFromStreams()
 		{
-			string sourcePath = @"Groupdocs.Comparison.Samples.data.Words.source.docx";
-			string targetPath = @"Groupdocs.Comparison.Samples.data.Words.target.docx";
+			string sourcePath = @"GroupDocs.Comparison.Samples.data.Words.source.docx";
+			string targetPath = @"GroupDocs.Comparison.Samples.data.Words.target.docx";
 
 			// Create two streams of documents
 			Assembly assembly = Assembly.GetExecutingAssembly();

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Groupdocs.Comparison.Samples.Pdf
+namespace GroupDocs.Comparison.Samples.Pdf
 {
 	internal class Program
 	{

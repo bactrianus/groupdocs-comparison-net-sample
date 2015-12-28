@@ -7,16 +7,16 @@ using GroupDocs.Comparison.Slides.Contracts;
 using GroupDocs.Comparison.Slides.Contracts.Comparison;
 using GroupDocs.Comparison.Slides.Contracts.Enums;
 
-namespace Groupdocs.Comparison.Samples.Slides.Components
+namespace GroupDocs.Comparison.Samples.Slides.Components
 {
 	public static class CompareSlides
 	{
 		public static void CompareSlidesFromDifferentPresentations()
 		{
 			string sourcePath =
-				@"Groupdocs.Comparison.Samples.Slides.Components.data.CompareSlidesFromDifferentPresentations.old.pptx";
+				@"GroupDocs.Comparison.Samples.Slides.Components.data.CompareSlidesFromDifferentPresentations.old.pptx";
 			string targetPath =
-				@"Groupdocs.Comparison.Samples.Slides.Components.data.CompareSlidesFromDifferentPresentations.new.pptx";
+				@"GroupDocs.Comparison.Samples.Slides.Components.data.CompareSlidesFromDifferentPresentations.new.pptx";
 
 			// Create to streams of presentations
 			Assembly assembly = Assembly.GetExecutingAssembly();
@@ -54,7 +54,7 @@ namespace Groupdocs.Comparison.Samples.Slides.Components
 
 		public static void CompareSlidesFromOnePresentations()
 		{
-			string sourcePath = @"Groupdocs.Comparison.Samples.Slides.Components.data.CompareSlidesFromOnePresentations.old.pptx";
+			string sourcePath = @"GroupDocs.Comparison.Samples.Slides.Components.data.CompareSlidesFromOnePresentations.old.pptx";
 
 			// Create to stream of presentation
 			Assembly assembly = Assembly.GetExecutingAssembly();
@@ -90,7 +90,7 @@ namespace Groupdocs.Comparison.Samples.Slides.Components
 		public static void CompareSlideFromPresentationsWithCreatingSlide()
 		{
 			string sourcePath =
-				@"Groupdocs.Comparison.Samples.Slides.Components.data.CompareSlideFromPresentationsWithCreatingSlide.old.pptx";
+				@"GroupDocs.Comparison.Samples.Slides.Components.data.CompareSlideFromPresentationsWithCreatingSlide.old.pptx";
 
 			// Create to stream of presentation
 			Assembly assembly = Assembly.GetExecutingAssembly();
