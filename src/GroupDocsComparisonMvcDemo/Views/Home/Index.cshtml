@@ -1,0 +1,40 @@
+﻿@using GroupDocs.Web.UI.Comparison
+@using GroupDocsComparisonMvcDemo
+<div id="comparison-wrapper"></div>
+
+@(Html
+    .Compare("#comparison-wrapper")
+
+        .SourceFileName("source.xlsx")
+        .TargetFileName("target.xlsx")
+        .ResultFileName("Redline")
+
+/*        .SourceFileName("Tables.Source.docx")
+        .TargetFileName("Tables.Target.docx")
+        .ResultFileName("Redline.docx")*/
+
+/*        .SourceFileName("1.doc")
+        .TargetFileName("2.doc")
+        .ResultFileName("Redline.doc")*/
+
+/*        .SourceFileName("source.html")
+        .TargetFileName("target.html")
+        .ResultFileName("Redline.html")*/
+
+    /*    .SourceFileName("source.txt")
+        .TargetFileName("target.txt")
+        .ResultFileName("Redline.txt")*/
+
+    /*    .SourceFileName("source.xml")
+        .TargetFileName("target.xml")
+        .ResultFileName("Redline.xml")*/
+
+/*        .SourceFileName("source.docx")
+        .TargetFileName("target.docx")
+        .ResultFileName("Redline")*/
+
+    /*    .SourceFileName("source.pptx")
+        .TargetFileName("target.pptx")
+        .ResultFileName("Redline.pptx")*/
+
+    .ImmediateCompare())
