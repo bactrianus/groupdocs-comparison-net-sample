@@ -1,17 +1,17 @@
 ﻿using System.Text;
 using System.Web;
-using GroupDocs.Web.UI.Comparison;
+using System.Web.Optimization;
 
 namespace GroupDocsComparisonMvcDemo
 {
     /// <summary>
     /// Client Styles Loader Helper
     /// </summary>
-    public class ClientStylesLoaderHelper : GroupDocs.Web.UI.Comparison.Helpers.ClientStylesLoaderHelper, IHtmlString
+    public class ClientStylesLoaderHelper : IHtmlString
     {
         private readonly ComparisonWidgetSettings _settings;
 
-        internal ClientStylesLoaderHelper(ComparisonWidgetSettings settings):base(settings)
+        internal ClientStylesLoaderHelper(ComparisonWidgetSettings settings)
         {
             //Set comparison settings
             _settings = settings;
@@ -25,6 +25,8 @@ namespace GroupDocsComparisonMvcDemo
         public override string ToString()
         {
             var result = new StringBuilder();
+            result.Append(Styles.Render(BundleTable.Bundles.ResolveBundleUrl(BundleConfigurator.AddPrefix("~/comparison/styles", false))));
+
             //Add comparison css scripts
             result.Append(base.ToString());
             return result.ToString();

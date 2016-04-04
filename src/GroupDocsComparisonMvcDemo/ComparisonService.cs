@@ -1,9 +1,8 @@
 using System;
 using System.IO;
 using System.Linq;
-using Groupdocs.Web.UI;
 using GroupDocs.Comparison.Common.Changes;
-using GroupDocs.Web.UI.Comparison;
+using GroupDocs.Viewer;
 
 namespace GroupDocsComparisonMvcDemo
 {
@@ -40,9 +39,10 @@ namespace GroupDocsComparisonMvcDemo
             _settings = settings;
 
             //Set Viewer license
-            if (!Viewer.IsLicensed && !String.IsNullOrEmpty(settings.LicensePath))
+            if (!String.IsNullOrEmpty(settings.LicensePath))
             {
-                Viewer.SetLicensePath(settings.LicensePath);
+                License lic = new License();
+                lic.SetLicense(settings.LicensePath);
             }
         }
 
@@ -110,7 +110,7 @@ namespace GroupDocsComparisonMvcDemo
             var changes = comparison.GetChanges();
 
             //Cut changes and return
-            return changes.Where(c => Viewer.IsLicensed || c.Page.Id <= 2).ToArray();
+            return changes.ToArray();
         }
 
         /// <summary>

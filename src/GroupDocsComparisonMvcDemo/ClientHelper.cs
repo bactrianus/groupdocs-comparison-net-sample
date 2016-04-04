@@ -4,7 +4,6 @@ using System.Text;
 using System.Web;
 using System.Web.Script.Serialization;
 using GroupDocs.Comparison.Common.Changes;
-using GroupDocs.Web.UI.Comparison;
 
 namespace GroupDocsComparisonMvcDemo
 {

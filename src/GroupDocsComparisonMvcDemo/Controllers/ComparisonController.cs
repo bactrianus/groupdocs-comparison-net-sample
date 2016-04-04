@@ -4,8 +4,7 @@ using System.Linq;
 using System.Web.Mvc;
 using System.Web.Script.Serialization;
 using GroupDocs.Comparison.Common.Changes;
-using GroupDocs.Web.UI.Comparison;
-using GroupDocs.Web.UI.Comparison.Response;
+using GroupDocsComparisonMvcDemo.Response;
 
 namespace GroupDocsComparisonMvcDemo.Controllers
 {
@@ -14,7 +13,7 @@ namespace GroupDocsComparisonMvcDemo.Controllers
         public ActionResult GetResource(string path)
         {
             //Set namespace
-            var nameSpace = "Groupdocs.Web.UI.Comparison";
+            var nameSpace = "GroupDocsComparisonMvcDemo";
             var manifestResourceName = string.Format("{0}.{1}", nameSpace, path.Replace('/', '.'));
             var actualResourceName = typeof(BundleConfigurator).Assembly.GetManifestResourceNames()
                 .FirstOrDefault(s => s.Equals(manifestResourceName, StringComparison.InvariantCultureIgnoreCase));

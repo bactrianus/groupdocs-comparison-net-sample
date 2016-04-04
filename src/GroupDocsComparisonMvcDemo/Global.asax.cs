@@ -2,7 +2,6 @@
 using System.Web.Mvc;
 using System.Web.Routing;
 using GroupDocs.Comparison.Common.License;
-using GroupDocs.Web.UI.Comparison;
 
 namespace GroupDocsComparisonMvcDemo
 {
@@ -15,7 +14,7 @@ namespace GroupDocsComparisonMvcDemo
 
             //Set license
             License license = new License();
-            license.SetLicense(@"C:\work\GroupDocs.Comparison\GroupDocs.Comparison.lic");
+            license.SetLicense(@".\..\..\licenses\GroupDocs.Comparison.lic");
 
             //Register filters
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
@@ -32,7 +31,7 @@ namespace GroupDocsComparisonMvcDemo
                     GenerateSummaryPage = true
                 },
                 //Set license for Viewer
-                LicensePath = @"C:\work\GroupDocs.Comparison\GroupDocs.Total.for.NET.lic"
+                LicensePath = @".\..\..\licenses\GroupDocs.Viewer.lic"
             };
 
             //Initiate comparison widget

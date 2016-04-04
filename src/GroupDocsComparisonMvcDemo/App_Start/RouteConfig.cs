@@ -1,7 +1,5 @@
 ﻿using System.Web.Mvc;
 using System.Web.Routing;
-using Groupdocs.Web.UI;
-using GroupDocs.Web.UI.Comparison;
 
 namespace GroupDocsComparisonMvcDemo
 {
@@ -12,10 +10,17 @@ namespace GroupDocsComparisonMvcDemo
             //Add route "{resource}.axd/{*pathInfo}" to ignore
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
             //Init Viewer routes
-            Viewer.InitRoutes();
+            routes.MapRoute(
+                name: "document-viewer",
+                url: "document-viewer/{action}/{id}",
+                defaults: new { controller = "Viewer", action = "Index", id = UrlParameter.Optional }
+            );
             //Init Comparison routes
-            RouteConfigurator.Configure(settings);
-            
+            routes.MapRoute(null, settings.ClientFilesPrefix + "/embedded/{*path}", new { controller = "Comparison", action = "GetResource" });
+
+            routes.MapRoute(null, settings.ClientFilesPrefix + "/comparison2/updatechanges", new { controller = "Comparison", action = "ApplyChanges" });
+            routes.MapRoute(null, settings.ClientFilesPrefix + "/comparison2/getchanges", new { controller = "Comparison", action = "GetChanges" });
+
             //Add default route for Home controller
             routes.MapRoute(
                 name: "Default",

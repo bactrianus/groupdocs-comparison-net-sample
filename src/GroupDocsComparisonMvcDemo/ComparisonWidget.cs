@@ -2,9 +2,7 @@
 using System.IO;
 using System.Web;
 using System.Web.Mvc;
-using Groupdocs.Web.UI;
 using GroupDocs.Comparison.Common.Changes;
-using GroupDocs.Web.UI.Comparison;
 
 namespace GroupDocsComparisonMvcDemo
 {
@@ -53,11 +51,6 @@ namespace GroupDocsComparisonMvcDemo
                 {
                     Settings.BaseUrl = HttpRuntime.AppDomainAppVirtualPath;
                 }
-
-                //Set Viewer parameters
-                Viewer.SetBaseUrl(Settings.BaseUrl);
-                Viewer.SetLicensePath(Settings.LicensePath);
-                Viewer.SetRootStoragePath(Settings.RootStoragePath);
             }
         }
         
