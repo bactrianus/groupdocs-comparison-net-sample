@@ -105,7 +105,7 @@ namespace GroupDocsComparisonMvcDemo
             comparison = new GroupDocs.Comparison.Comparison();
             var resultName = Path.Combine(_settings.RootStoragePath, resultFileName);
             //Compare documents
-            Stream stream = comparison.Compare(_source.Content, _target.Content, resultName, _target.Extention, _settings.ComparisonBehavior);
+            Stream stream = comparison.Compare(_source.Content, _target.Content, resultName, _settings.ComparisonBehavior);
             //Get changes
             var changes = comparison.GetChanges();
 
